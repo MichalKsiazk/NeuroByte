@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{4e29ff6e-782e-4089-9280-9c220aa96e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="displays">
+      <UniqueIdentifier>{c5b09828-88b0-46ad-8439-2e963d7830de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\test_shader">
+      <UniqueIdentifier>{acfbedf7-cf8e-44cb-83d3-6b790a0e8bce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine">
+      <UniqueIdentifier>{f1d7e9d7-f64d-4dd4-af94-ef761099bde6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="engine\Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="flappy">
+      <UniqueIdentifier>{e83d89f9-68a7-487e-af5c-3541bbe578da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\collision_system">
+      <UniqueIdentifier>{7a54eec7-e021-40b4-a593-4f17c9f2e31c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\ai">
+      <UniqueIdentifier>{29ab6108-7a3d-4f52-9d21-0b0d297e666e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>engine\Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>engine\Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="display.h">
+      <Filter>engine\Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="points_renderer.h">
+      <Filter>engine\Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>engine\Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_builder.h">
+      <Filter>engine\Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_program.h">
+      <Filter>engine\Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDisplay.h">
+      <Filter>displays</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>engine\Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="render_models.h">
+      <Filter>engine\Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>engine\Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>engine\Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>engine\Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="bird.h">
+      <Filter>flappy</Filter>
+    </ClInclude>
+    <ClInclude Include="game_clock.h">
+      <Filter>engine\Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="pipe.h">
+      <Filter>engine\Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="collider_2d.h">
+      <Filter>engine\collision_system</Filter>
+    </ClInclude>
+    <ClInclude Include="pipe_system.h">
+      <Filter>engine\Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="game_state.h">
+      <Filter>engine\Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="brain.h">
+      <Filter>engine\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="population.h">
+      <Filter>engine\Pliki nagłówkowe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>engine\Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="display.cpp">
+      <Filter>engine\Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="points_renderer.cpp">
+      <Filter>engine\Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>engine\Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="shader_builder.cpp">
+      <Filter>engine\Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="shader_program.cpp">
+      <Filter>engine\Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDisplay.cpp">
+      <Filter>displays</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>engine\Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="render_models.cpp">
+      <Filter>engine\Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="transform.cpp">
+      <Filter>engine\Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>engine\Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="bird.cpp">
+      <Filter>flappy</Filter>
+    </ClCompile>
+    <ClCompile Include="game_clock.cpp">
+      <Filter>engine\Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="pipe.cpp">
+      <Filter>engine\Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="collider_2d.cpp">
+      <Filter>engine\collision_system</Filter>
+    </ClCompile>
+    <ClCompile Include="pipe_system.cpp">
+      <Filter>engine\Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="brain.cpp">
+      <Filter>engine\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="population.cpp">
+      <Filter>engine\Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vs.vert">
+      <Filter>Shaders\test_shader</Filter>
+    </None>
+    <None Include="fs.frag">
+      <Filter>Shaders\test_shader</Filter>
+    </None>
+    <None Include="color_v3.frag">
+      <Filter>Shaders\test_shader</Filter>
+    </None>
+    <None Include="color_v3.vert">
+      <Filter>Shaders\test_shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
